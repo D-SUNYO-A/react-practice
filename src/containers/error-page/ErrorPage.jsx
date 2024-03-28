@@ -1,5 +1,4 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
   return (
@@ -8,7 +7,7 @@ const ErrorPage = () => {
       <p>Sorry, an unexpected error has occurred.</p>
       <Link to={`/`}>Go back home</Link>
     </div>
-  )
-}
+  );
+};
 
-export default ErrorPage
+export default ErrorPage;
