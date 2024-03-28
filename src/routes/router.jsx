@@ -23,18 +23,14 @@ export const router = createBrowserRouter (
       <Route path='login' element={<Login />} />
       <Route path='register' element={<Register />} />
 
-      {/* Private Routes for /app */}
+      {/* Private Routes for */}
+      {/* /app */}
       <Route path='app' element={<AppLayout />}>
-
-        {/* Default /app route */}
         <Route index element={<Dashboard />} />
-
-        {/* /app Routes */}
         <Route path='dashboard' element={<Dashboard />} />
         <Route path='user' element={<User />} />
         <Route path='setting' element={<Setting />} />
         <Route path='counter' element={<Counter />} />
-
       </Route>
 
       {/* Error Route */}
